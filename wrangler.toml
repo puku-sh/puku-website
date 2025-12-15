@@ -1,0 +1,7 @@
+name = "puku-sh"
+compatibility_date = "2024-12-15"
+pages_build_output_dir = "dist"
+
+[[r2_buckets]]
+binding = "PUKU_DOWNLOADS"
+bucket_name = "puku-downloads"
