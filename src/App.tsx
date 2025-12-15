@@ -10,7 +10,7 @@ function App() {
               Puku Editor
             </h1>
             <p className="text-xl text-muted-foreground">
-              AI-Powered Code Editor with GitHub Copilot Chat and Z.AI Integration
+              AI-Powered Code Editor with Custom FIM & Z.AI GLM Integration
             </p>
           </div>
 
@@ -27,19 +27,19 @@ function App() {
             <div className="p-6 rounded-lg bg-card border shadow-sm">
               <h3 className="text-xl font-semibold mb-2">AI Chat</h3>
               <p className="text-muted-foreground">
-                Built on GitHub Copilot Chat architecture with GLM-4.6 model support
+                Powered by Z.AI GLM-4.6 with 20+ tools for intelligent code assistance
               </p>
             </div>
             <div className="p-6 rounded-lg bg-card border shadow-sm">
-              <h3 className="text-xl font-semibold mb-2">Inline Completions</h3>
+              <h3 className="text-xl font-semibold mb-2">Smart Completions</h3>
               <p className="text-muted-foreground">
-                Fill-in-Middle (FIM) with Mistral Codestral for smart code suggestions
+                Custom FIM with Mistral Codestral, semantic context & import analysis
               </p>
             </div>
             <div className="p-6 rounded-lg bg-card border shadow-sm">
-              <h3 className="text-xl font-semibold mb-2">Semantic Search</h3>
+              <h3 className="text-xl font-semibold mb-2">Codebase Intelligence</h3>
               <p className="text-muted-foreground">
-                Built-in embeddings cache with sqlite-vec for fast codebase indexing
+                AST-based indexing with sqlite-vec embeddings for semantic code search
               </p>
             </div>
           </div>
@@ -76,8 +76,8 @@ function App() {
                 <p>Download the DMG file, open it, and drag Puku Editor to your Applications folder.</p>
               </div>
               <div>
-                <h3 className="font-semibold text-foreground mb-2">2. Configure Z.AI API</h3>
-                <p>Add your Z.AI API key to enable GLM-4.6 model for chat and completions.</p>
+                <h3 className="font-semibold text-foreground mb-2">2. Sign In with Puku</h3>
+                <p>Authenticate with your Puku account to access AI features powered by Z.AI GLM models.</p>
               </div>
               <div>
                 <h3 className="font-semibold text-foreground mb-2">3. Start Coding</h3>
