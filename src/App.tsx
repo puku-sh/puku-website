@@ -10,7 +10,7 @@ function App() {
               Puku Editor
             </h1>
             <p className="text-xl text-muted-foreground">
-              AI-Powered Code Editor with Custom FIM & Z.AI GLM Integration
+              AI-Powered Code Editor with Custom FIM & Puku AI Integration
             </p>
           </div>
 
@@ -27,7 +27,7 @@ function App() {
             <div className="p-6 rounded-lg bg-card border shadow-sm">
               <h3 className="text-xl font-semibold mb-2">AI Chat</h3>
               <p className="text-muted-foreground">
-                Powered by Z.AI GLM-4.6 with 20+ tools for intelligent code assistance
+                Powered by Puku AI with 20+ tools for intelligent code assistance
               </p>
             </div>
             <div className="p-6 rounded-lg bg-card border shadow-sm">
@@ -77,7 +77,7 @@ function App() {
               </div>
               <div>
                 <h3 className="font-semibold text-foreground mb-2">2. Sign In with Puku</h3>
-                <p>Authenticate with your Puku account to access AI features powered by Z.AI GLM models.</p>
+                <p>Authenticate with your Puku account to access AI features powered by Puku AI models.</p>
               </div>
               <div>
                 <h3 className="font-semibold text-foreground mb-2">3. Start Coding</h3>
